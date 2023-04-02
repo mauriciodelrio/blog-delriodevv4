@@ -113,7 +113,7 @@ const About = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <div className="flex justify-center">
-          <div className="flex justify-center w-2/3 max-[1200px]:w-3/4 max-[1200px]:block">
+          <div className="flex justify-center w-2/3 max-[1200px]:w-3/4 max-[1200px]:block  max-w-[1440px]">
               <div className="w-1/4 max-[1200px]:w-full mt-4 mb-4">
                   <h1 className="text-4xl max-[1200px]:text-3xl font-bold font-sans mb-6">Mauricio Del Río Zorrilla</h1>
                   <p>Software developer, IT consultant and Human.</p>
