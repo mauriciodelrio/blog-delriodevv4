@@ -6,7 +6,8 @@ import Link from 'next/link';
 // The Blog Page Content
 export default function Blog({posts}){
     return <main>
-        {posts.map(post => {
+        <h1 className='text-6xl text-center mt-[12%]'>Comming Soon!</h1>
+        {/* {posts.map(post => {
             //extract slug and frontmatter
             const {slug, frontmatter} = post
             //extract frontmatter properties
@@ -20,7 +21,7 @@ export default function Blog({posts}){
                 <h3>{author}</h3>
                 <h3>{date}</h3>
             </article>
-        })}
+        })} */}
     </main>
 }
 
